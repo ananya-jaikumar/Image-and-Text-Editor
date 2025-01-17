@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Run Python Script Image Editor</title>
+</head>
+<body>
+  <button onclick="runPythonScript()">Run Python Script</button>
+  <script>
+    function runPythonScript() {
+      // Get the path to the Python script.
+      var pythonScriptPath = "/Users/janan/OneDrive/Desktop/OS Project/Image Editor.py";
+      // Run the Python script.
+      subprocess.run(["python", pythonScriptPath]);
+    }
+  </script>
+</body>
+</html>
